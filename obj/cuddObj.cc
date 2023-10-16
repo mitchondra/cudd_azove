@@ -180,12 +180,12 @@ DD::manager() const
 } // DD::manager
 
 
-inline DdNode *
+/* inline DdNode *
 DD::getNode() const
 {
     return node;
 
-} // DD::getNode
+} // DD::getNode*/
 
 
 int

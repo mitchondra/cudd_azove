@@ -112,7 +112,7 @@ public:
     DD();
     DD(const DD &from);
     Cudd *manager() const;
-    inline DdNode * getNode() const;
+    inline DdNode * getNode() const { return node;};
     int nodeCount() const;
     unsigned int NodeReadIndex() const;
 

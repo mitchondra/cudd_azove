@@ -61,8 +61,9 @@ ICFLAGS	= -g -O6
 #==========================
 #  Linux
 #
+XCFLAGS		= -malign-double -DHAVE_IEEE_754 -DBSD
 # Gcc 2.8.1 or higher on i686.
-XCFLAGS	= -mcpu=pentiumpro -malign-double -DHAVE_IEEE_754 -DBSD
+# XCFLAGS	= -mcpu=pentiumpro -malign-double -DHAVE_IEEE_754 -DBSD
 # Gcc 3.2.2 or higher on i686.
 #XCFLAGS	= -mcpu=pentium4 -malign-double -DHAVE_IEEE_754 -DBSD
 # Icc on i686.
