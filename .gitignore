@@ -1,0 +1,6 @@
+# ignore build artefacts
+*.o
+*.a
+include/
+nanotrav/nanotrav
+obj/testobj
